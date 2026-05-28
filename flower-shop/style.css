@@ -1,0 +1,78 @@
+body {
+  background-color: #fff7f8;
+  font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+h1, h2 {
+  color: #cc3366;
+}
+
+
+.card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+.btn-success,
+.btn-outline-success {
+  border-radius: 30px;
+}
+.pink-theme {
+  background-color: #ffd6e7;
+}
+
+
+.pink-theme .card {
+  background-color: #fff0f5;
+}
+
+
+.pink-theme footer {
+  background-color: #ff66a3 !important;
+}
+
+
+.btn-pink {
+  background-color: #ff66a3;
+  color: white;
+  border: none;
+}
+
+
+.btn-pink:hover {
+  background-color: #ff3385;
+}
+.hero-banner {
+  height: 500px;
+
+  background-image:
+    linear-gradient(rgba(0,0,0,0.4),
+    rgba(0,0,0,0.4)),
+
+    url("https://img.goodfon.ru/wallpaper/big/2/c2/eustoma-tsvety-belyi-fon.webp");
+
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 0 0 30px 30px;
+}

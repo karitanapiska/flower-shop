@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Delivery</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+
+  <a
+    href="catalog.html"
+    class="btn btn-outline-success me-3">
+
+    Дополнительные товары
+
+  </a>
+
+
+  <button
+    id="theme-button"
+    class="btn btn-pink">
+
+    Розовая тема
+
+  </button>
+
+</div>
+
+
+ <section class="hero-banner d-flex align-items-center text-white">
+
+  <div class="container text-center">
+
+    <h1 class="display-3 fw-bold">
+      Flower Shop
+    </h1>
+
+    <p class="lead mt-3">
+      Доставка свежих цветов, подарков и эмоций
+    </p>
+
+    <a
+      href="#catalog"
+      class="btn btn-light btn-lg mt-3">
+
+      Смотреть букеты
+
+    </a>
+
+  </div>
+
+</section>
+<section class="container mt-5" id="catalog">
+
+  <h2 class="text-center mb-4">
+    Популярные букеты
+  </h2>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card p-3">
+<img
+  src="https://storage.florist.ru/f/get/supplier/1302/products/0/08/c3/_2a3194702321b66c188cccadfd6f/800x800/690e140419a15.jpeg"
+  class="card-img-top"
+  alt="Розовый букет">
+        <h3>Розовый букет</h3>
+
+        <p>
+          Нежные розы для особенных моментов
+        </p>
+
+        <button class="btn btn-outline-success">
+          Подробнее
+        </button>
+
+      </div>
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="card p-3">
+<img
+  src="https://letoflowers.ru/upload/resize_cache/iblock/e32/999_999_1cc3a0a07c426f78d7c72eaaf90047430/nk7efnq3sg0z2qpmje1es5ye5tbt5pcd.jpeg"
+  class="card-img-top"
+  alt="Весенние тюльпаны">
+        <h3>Весенние тюльпаны</h3>
+
+        <p>
+          Яркие тюльпаны с быстрой доставкой
+        </p>
+
+        <button class="btn btn-outline-success">
+          Подробнее
+        </button>
+
+      </div>
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="card p-3">
+        <img
+    src="flowers.png"
+  class="card-img-top"
+  alt="Авторский букет">
+     
+
+        <h3>Авторский букет</h3>
+
+        <p>
+          Уникальная композиция от флориста
+        </p>
+
+        <button class="btn btn-outline-success">
+          Подробнее
+        </button>
+
+      </div>
+    </div>
+
+  </div>
+
+</section>
+ 
+</body>
+<footer class="bg-dark text-white mt-5 p-5">
+
+  <div class="container">
+
+    <h2 class="text-center mb-4">
+      Связаться с нами
+    </h2>
+
+    <form id="contact-form">
+
+      <div class="mb-3">
+        <label class="form-label">Ваше имя</label>
+        <input type="text" class="form-control" id="name">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Сообщение</label>
+        <textarea class="form-control" rows="4"id="message"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-success">
+        Отправить
+      </button>
+
+    </form id="contact-form">
+
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
